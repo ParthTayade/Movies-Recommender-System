@@ -6,4 +6,4 @@ The system also integrates an external movie API to fetch real-time movie poster
 
 ## Dataset
 SOURCE: TMDB 5000 Movie Dataset
-The TMDB (The Movie Database) Dataset is a rich collection of movie metadata, sourced via TMDB's API, offering details like titles, budgets, revenues, user ratings, genres, cast, release dates, and plot summaries for thousands of films, ideal for data analysis, building recommendation systems, and exploring trends in cinema
+The TMDB (The Movie Database) Dataset is a rich collection of movie metadata, sourced via TMDB's API, offering details like titles, budgets, revenues, user ratings, genres, cast, release dates, and plot summaries for thousands of films, ideal for data analysis, building recommendation systems, and exploring trends in cinema.
