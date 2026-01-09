@@ -11,7 +11,7 @@ The TMDB (The Movie Database) Dataset is a rich collection of movie metadata, so
 
 #### 1. Data Understanding and Feature Selection
 
-&#9679; Analyzed the movie dataset and identified relevant features such as title, genres, keywords, overview, cast, and crew.
+&#9679; Analyzed the movie dataset and identified relevant features such as title, genres, overview, cast, and crew.
 
 &#9679; Selected only content-based attributes required for generating recommendations.
 
