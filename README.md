@@ -9,23 +9,34 @@ The TMDB (The Movie Database) Dataset is a rich collection of movie metadata, so
 
 ### Approach
 
-1. Data Understanding and Feature Selection
+#### 1. Data Understanding and Feature Selection
+
 &#9679; Analyzed the movie dataset and identified relevant features such as title, genres, keywords, overview, cast, and crew.
+
 &#9679; Selected only content-based attributes required for generating recommendations.
 
-2. Data Preprocessing
+#### 2. Data Preprocessing
+
 &#9679; Combined selected features into a single text column for each movie.
+
 &#9679; Performed text cleaning by converting text to lowercase and removing unnecessary words.
 
-3. Feature Extraction
+#### 3. Feature Extraction
+ 
 &#9679; Converted textual data into numerical vectors using CountVectorizer.
+
 &#9679; Limited the vocabulary size to the top 5,000 most frequent words for efficiency.
 
-5. Similarity Calculation
-&#9679; Applied Cosine Similarity to compute similarity scores between movie vectors.                                                                                                      
+#### 4. Similarity Calculation
+
+&#9679; Applied Cosine Similarity to compute similarity scores between movie vectors.               
+
 &#9679; Stored similarity scores for fast recommendation retrieval.
 
-6. Recommendation Generation
-&#9679; Accepted a movie title as input from the user.                                                                                                                                     
-&#9679; Retrieved movies with the highest cosine similarity scores.                                                                                                                        
+#### 5. Recommendation Generation
+ 
+&#9679; Accepted a movie title as input from the user.         
+
+&#9679; Retrieved movies with the highest cosine similarity scores.      
+
 &#9679; Recommended the top 5 most similar movies.
